@@ -1,0 +1,10 @@
+Fri Mar 18 14:24:14 UTC 2022: 
+ list.c | 6 +++++-
+ 1 file changed, 5 insertions(+), 1 deletion(-)
+In file included from test.c:5:0:
+list.c: In function ‘createList’:
+list.c:32:35: error: expected expression before ‘,’ token
+     List *lista = (List *) calloc(,sizeof(List));
+                                   ^
+Compilation failed
+d5c322c
